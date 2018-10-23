@@ -127,6 +127,7 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="joyce.aspx" />
     <Content Include="not sure.aspx" />
     <Content Include="shuwen2.aspx" />
     <Content Include="WebForm1.aspx" />
@@ -212,6 +213,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="joyce.aspx.cs">
+      <DependentUpon>joyce.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="joyce.aspx.designer.cs">
+      <DependentUpon>joyce.aspx</DependentUpon>
     </Compile>
     <Compile Include="not sure.aspx.cs">
       <DependentUpon>not sure.aspx</DependentUpon>
